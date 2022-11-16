@@ -1,0 +1,27 @@
+@media(max-width:768px){
+  main{
+    width: 500px;
+  }
+
+  #preview{
+    border: 1px solid red;
+ 
+  }
+  .about{
+    background-color: lightgreen;
+
+    
+    
+  }
+  .ratings{
+    background-color: lightblue;
+    position: none;
+
+    .flex-rate{
+      flex-direction: column;
+    }
+  }
+  #testimony{
+    flex-direction: column;
+  }
+}
